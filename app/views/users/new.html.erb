@@ -1,0 +1,16 @@
+<div class="row"> 
+	<div class="col-md-12">
+		<h1>Novo usuario:</h1>
+		<div class="well  col-md-8 col-md-offset-2">
+			<%= form_for :usuario do |u| %>
+				<%= u.label :Nome %>
+				<%= u.text_field :nome, { class: "form-control input-sm" }  %><br>
+				<%= u.label :"Data de Nascimento:" %>
+				<%= u.date_select :nascimento, { start_year: 1900, order:[:day, :month, :year], use_short_month: true }  %><br>
+				<%= u.label :"Data de Admissao:" %>
+				<%= u.date_select :admissao, { start_year: 2005, order:[:day, :month, :year], use_short_month: true } %><br>
+				<%= u.label :Setor %>
+			<% end %>
+		</div>
+	</div>
+</div>

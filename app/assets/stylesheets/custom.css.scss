@@ -1,0 +1,62 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo{
+	background-color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	margin-left: 5px;
+	padding-top: 10px;
+}
+
+
+#botaoreg{
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#botao_centro{
+	text-align: center;	
+}
+
+.navbar{
+	background-color: #000066;
+	padding: 20px;
+}
+
+body{
+	padding-top: 80px;
+}
+
+.center{
+	text-align: center;
+}
+
+h1, h2, h3, h4{
+	line-height: 1;
+}
+
+h1{
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+h2{
+	font-size: 2.5em;
+	letter-spacing: -2px;
+	text-align: center;
+}
+
+.footer{
+	color: lightgrey;
+	text-align: right;
+	margin-right: 10px;
+}
+

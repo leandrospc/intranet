@@ -1,0 +1,23 @@
+<%= form_for :setor do |s| %>
+<div class="row">
+
+	<div class="col-md-12">
+		<h1>Novo setor</h1>
+		<div class="well  col-md-8 col-md-offset-2">
+			<%= s.label :Setor %>
+			<%= s.text_field :setorNome, class:"form-control input-sm" %>
+			<br>
+			<%= s.label :Descricao %>
+			<%= s.text_field :setorDesc, class:"form-control input-sm" %>
+			<br>
+			<div class="center"> 
+				<%= s.submit :Criar, class:"btn center btn-default"%>
+				<%= link_to "Voltar" , setor_index_path , class:"btn center btn-default" %>
+			</div>
+		</div>
+
+	</div>
+</div>
+<% end %>
+
+
