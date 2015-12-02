@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 	resources :users, except: [:new]
 	get '/registrar', to: 'users#new'
 	
-	resources :setor
+	resources :sectors
 end

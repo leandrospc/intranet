@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151122080718) do
+ActiveRecord::Schema.define(version: 20151202222855) do
 
-  create_table "setores", force: :cascade do |t|
+  create_table "sectors", force: :cascade do |t|
     t.string   "setorNome"
     t.text     "setorDesc"
     t.datetime "created_at", null: false
