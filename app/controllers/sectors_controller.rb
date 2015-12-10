@@ -5,7 +5,7 @@ class SectorsController < ApplicationController
 	end
 
 	def new
-	
+		@setor = Sector.new	
 	end
 
 end
