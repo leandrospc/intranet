@@ -11,13 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151202222855) do
+ActiveRecord::Schema.define(version: 20151228154853) do
 
   create_table "sectors", force: :cascade do |t|
     t.string   "setorNome"
     t.text     "setorDesc"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "nome"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "sector_id"
   end
 
 end
